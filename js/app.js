@@ -41,7 +41,7 @@ const showTraining = function (event) {
 
 const createTrainingListItem = function (form) {
   const trainingListItem = document.createElement('li');
-  trainingListItem.classList.add('exerctise-show');
+  trainingListItem.classList.add('training-list-item');
 
   const exercise = document.createElement('h2');
   exercise.textContent = form.exercise.value;
