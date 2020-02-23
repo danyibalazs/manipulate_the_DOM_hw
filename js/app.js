@@ -47,13 +47,13 @@ const createTrainingListItem = function (form) {
   exercise.textContent = form.exercise.value;
   trainingListItem.appendChild(exercise);
 
-  const muscle = document.createElement('h3');
-  muscle.textContent = form.muscle.value;
-  trainingListItem.appendChild(muscle);
-
-  const quantity = document.createElement('p');
+  const quantity = document.createElement('h3');
   quantity.textContent = form.quantity.value;
   trainingListItem.appendChild(quantity);
+
+  const muscle = document.createElement('p');
+  muscle.textContent = form.muscle.value;
+  trainingListItem.appendChild(muscle);
 
   return trainingListItem;
 }

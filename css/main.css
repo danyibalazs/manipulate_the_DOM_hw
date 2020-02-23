@@ -77,6 +77,7 @@ input[type=submit]:hover {
   padding: 20px;
   width: 50%;
   margin: 0 auto;
+  opacity: 0.9;
 }
 
 .hide {
@@ -93,9 +94,35 @@ input[type=submit]:hover {
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
-  background: #f2f2f2;
+  background: #45a049;
+  color: white;
+  opacity: 0.8;
 }
 
 #training-view, #exercise-form {
   margin: 10px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
