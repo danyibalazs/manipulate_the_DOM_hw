@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const getTraining = document.querySelector('#training-link');
   getTraining.addEventListener('click', showTraining);
+
+  const deleteAllButton = document.querySelector('#delete-all');
+  deleteAllButton.addEventListener('click', handleDeleteAllClick);
 })
 
 const handleNewItemFormSubmit = function (event) {
@@ -53,4 +56,9 @@ const createTrainingListItem = function (form) {
   trainingListItem.appendChild(quantity);
 
   return trainingListItem;
+}
+
+const handleDeleteAllClick = function (event) {
+  const readingList = document.querySelector('#exercise-show');
+  readingList.innerHTML = '';
 }
