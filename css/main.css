@@ -1,3 +1,23 @@
+body, html {
+  font-family: 'Krona One';
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/exercise-1200x621.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -74,4 +94,8 @@ input[type=submit]:hover {
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
   background: #f2f2f2;
+}
+
+#training-view, #exercise-form {
+  margin: 10px;
 }
